@@ -34,18 +34,19 @@
            sync-c="true"
            sync-j="4" />
 
+  <!-- cmRemiX Platform Manifest -->
+  <project path="cmRemiX" name="cmRemiX" remote="cmR" revision="cm-12.1" />
+
   <!-- cmRemiX Start -->
   <project path="build" name="android_build" remote="cmR" revision="cm-12.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="cmRemiX" name="cmRemiX" remote="cmR" revision="cm-12.1" />
+  <!-- Recovery -->
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-12.1"/>
 
-  <!-- Vendor cmRemiX -->
-  <project path="vendor/cmremix" name="android_vendor_cmremix" remote="cmR" revision="cm-12.1" >
-    <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
-  </project>
-
+  <!-- Package Apps -->
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.1" />
   <!-- SABER MOD GCC -->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="gl" revision="master" />-->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="CMRemix/arm-linux-androideabi-4.9" remote="gl" revision="master" />-->
@@ -55,6 +56,11 @@
   <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android_3.5/" remote="cmR" revision="cm-12.1" />
   <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" name="llvm-Snapdragon_LLVM_for_Android_3.6/" remote="cmR" revision="cm-12.1" />
   <project path="vendor/clanglibs" name="clanglibs" remote="cmR" revision="cm-12.1"/>
+
+  <!-- Vendor cmRemiX -->
+  <project path="vendor/cmremix" name="android_vendor_cmremix" remote="cmR" revision="cm-12.1" >
+    <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
+  </project>
 
   <!-- cmRemiX End -->
   
