@@ -1,29 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <!-- AOSP Github remote -->
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.1.0_r1" />
-
+  <!-- CM Github remote -->
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
-
+  <!-- SSH Github remote -->
   <remote  name="private"
            fetch="ssh://git@github.com" />
+  <!-- cmRemiX Github remote -->
+  <remote  name="cmR"
+           fetch="https://github.com/cmRemiX/" />
+  <!-- Generic CMRemix ssh Bitbucket remote -->
+  <remote  name="private-bb"
+           fetch="ssh://git@bitbucket.org/cmRemiX" />
+  <!-- Generic CMRemix Github remote -->
+  <remote  name="bb"
+           fetch="https://bitbucket.org/cmRemiX/" />
+  <!-- Generic CMRemix GitLab remote -->
+  <remote  name="gl"
+           fetch="https://gitlab.com/ZION959/" />
+  <!-- Omni Rom Github remote -->
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
 
   <default revision="refs/heads/staging/cm-12.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
+  <!-- cmRemiX Start -->
+  <project path="build" name="android_build" remote="cmR" revision="cm-12.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="cmRemiX" name="cmRemiX" remote="cmR" revision="cm-12.1" />
 
+  <!-- Vendor cmRemiX -->
+  <project path="vendor/cmremix" name="android_vendor_cmremix" remote="cmR" revision="cm-12.1" >
+    <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
+  </project>
+
+  <!-- SABER MOD GCC -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="gl" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="gl" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" revision="master" />
+
+  <!-- cmRemiX End -->
+  
+  <!-- Cyanogenmod Start -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -538,8 +568,6 @@
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" />
