@@ -23,7 +23,7 @@
            fetch="https://bitbucket.org/CMRemix/" />
   <!-- Generic CMRemix GitLab remote -->
   <remote  name="gl"
-           fetch="https://gitlab.com/u/CMRemix" />
+           fetch="https://gitlab.com/CMRemix" />
   <!-- Omni Rom Github remote -->
   <remote  name="omni"
            fetch="https://github.com/omnirom"
