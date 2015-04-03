@@ -12,6 +12,8 @@
   <!-- SSH Github remote -->
   <remote  name="private"
            fetch="ssh://git@github.com" />
+  <!-- codeaurora Caf Repo -->
+  <remote fetch="git://codeaurora.org" name="caf" />
   <!-- CMRemix Github remote -->
   <remote  name="cmR"
            fetch="https://github.com/CMRemix/" />
