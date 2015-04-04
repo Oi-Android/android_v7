@@ -57,7 +57,16 @@
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.1" />
   <project path="packages/apps/SlimLauncher" name="android_packages_apps_SlimLauncher" remote="cmR" revision="cm-12.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="cmR" revision="cm-12.1" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cmR" revision="cm-12.1" />
+  <!-- Misc -->
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="art" name="android_art" groups="pdk" remote="cmR" revision="cm-12.1" />
   <!-- SABER MOD GCC -->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="gl" revision="master" />-->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="CMRemix/arm-linux-androideabi-4.9" remote="gl" revision="master" />-->
