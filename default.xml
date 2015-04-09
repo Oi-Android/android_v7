@@ -78,7 +78,7 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" revision="master" />
   <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android_3.5/" remote="cmR" revision="cm-12.1" />
   <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" name="llvm-Snapdragon_LLVM_for_Android_3.6/" remote="cmR" revision="cm-12.1" />
-  <project path="vendor/clanglibs" name="clanglibs" remote="cmR" revision="cm-12.1"/>
+  <project name="mustermaxmueller/clanglibs" path="vendor/clanglibs" remote="github" revision="clang_qcom_3.6" />
 
   <!-- Vendor CMRemix -->
   <project path="vendor/cmremix" name="android_vendor_cmremix" remote="cmR" revision="cm-12.1" >
