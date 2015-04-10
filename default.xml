@@ -52,7 +52,6 @@
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cmR" revision="cm-12.1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-12.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cmR" revision="cm-12.1" />
-  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cmR" revision="cm-12.1" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="cmR" revision="cm-12.1" />
   <!-- Package Apps -->
   <project path="packages/apps/CMRemixCenter" name="CMRemixCenter" remote="cmR" revision="cm-12.1" />
