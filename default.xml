@@ -72,7 +72,6 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cmR" revision="cm-12.1" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cmR" revision="cm-12.1" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cmR" revision="cm-12.1" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="cmR" revision="cm-12.1" groups="pdk" />
   <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="cmR" revision="cm-12.1" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cmR" revision="cm-12.1" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cmR" revision="cm-12.1" />
@@ -148,6 +147,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
