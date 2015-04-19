@@ -45,8 +45,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <!-- Recovery -->
-  <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="cmR" revision="cm-12.1"/>
    <!-- Frameworks -->
   <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-12.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cm-12.1" />
