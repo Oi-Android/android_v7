@@ -54,7 +54,6 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="cmR" revision="cm-12.1" />
 
   <!-- Package Apps -->
-  <project path="packages/apps/CMRemixCenter" name="CMRemixCenter" remote="cmR" revision="cm-12.1" />
   <project path="packages/apps/CMRemixOTA" name="android_packages_apps_CMRemixOTA" remote="cmR" revision="cm-12.1" />
   <!--<project path="packages/apps/CMRemixUpdater" name="android_packages_apps_CMRemixUpdater" remote="cmR" revision="cm-12.1" />-->
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="lp5.1" />
