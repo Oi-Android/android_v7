@@ -106,7 +106,7 @@
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
 
   <!-- Vendor CMRemix & SaberMod -->
-  <project path="vendor/sm" name="android_vendor_sabermod" remote="cmR" revision="cm-12.1" >
+  <project path="vendor/sm" name="android_vendor_sabermod" remote="cmR" revision="cm-12.1" />
   <project path="vendor/cmremix" name="android_vendor_cmremix" remote="cmR" revision="cm-12.1" >
     <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
   </project>
