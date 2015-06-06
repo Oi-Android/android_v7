@@ -83,6 +83,8 @@
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-12.1" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-12.1" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="art" name="android_art" groups="pdk" remote="cmR" revision="cm-12.1" />
   <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="cmR" revision="cm-12.1" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="cmR" revision="cm-12.1" />
   <project path="development" name="android_development" groups="pdk-cw-fs" remote="cmR" revision="cm-12.1" />
@@ -115,8 +117,6 @@
   
   <!-- Cyanogenmod Start -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
