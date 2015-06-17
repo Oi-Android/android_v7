@@ -596,9 +596,9 @@
   <project path="packages/apps/viper4android" name="AuzOne/android_packages_apps_Viper4Android" remote="github" revision="5.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-  <project path="kernel/samsung/smdk4210" name="AuzOne/android_kernel_samsung_smdk4210" remote="github" revision="cm-12.1-r3p2" />
+  <project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4210" remote="github" revision="cm-12.1-r3p2" />
   <project path="vendor/samsung" remote="github" name="TheMuppets/proprietary_vendor_samsung" revision="cm-12.1" />
-  <project path="device/samsung/n7000" name="bauner/cm-android_device_samsung_n7000" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/n7000" name="AuzOne/cm-android_device_samsung_n7000" remote="github" revision="cm-12.1" />
   <project path="device/samsung/galaxys2-common" name="bauner/cm-android_device_samsung_galaxys2-common" remote="github" revision="cm-12.1" />
   <project path="hardware/samsung" name="bauner/cm-android_hardware_samsung" remote="github" revision="cm-12.1" />
 </manifest>
