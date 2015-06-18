@@ -105,6 +105,7 @@
   <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" name="llvm-Snapdragon_LLVM_for_Android_3.6/" remote="cmR" revision="clang_qcom_3.6" />
   <project path="vendor/clanglibs" name="clanglibs" remote="cmR" revision="clang_qcom_3.6" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
+  <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
 
   <!-- Vendor CMRemix & SaberMod -->
@@ -612,7 +613,6 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" remote="aosp" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" remote="aosp" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" remote="aosp" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" remote="aosp" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
