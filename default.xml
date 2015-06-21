@@ -479,7 +479,6 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
@@ -594,6 +593,7 @@
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   
   <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Settings" name="Oi-Android/android_packages_apps_Settings_Oi" remote="github" revision="cm-12.1" />
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
   <project path="packages/apps/viper4android" name="AuzOne/android_packages_apps_Viper4Android" remote="github" revision="5.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
