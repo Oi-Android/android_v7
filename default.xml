@@ -447,7 +447,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
@@ -463,10 +462,8 @@
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
-  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
@@ -591,16 +588,24 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
+  
   
   <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Settings" name="Oi-Android/android_packages_apps_Settings_Oi" remote="github" revision="cm-12.1" />
-  <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
-  <project path="packages/apps/viper4android" name="AuzOne/android_packages_apps_Viper4Android" remote="github" revision="5.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-  <project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4210" remote="github" revision="cm-12.1-r3p2" />
-  <project path="vendor/samsung" remote="github" name="TheMuppets/proprietary_vendor_samsung" revision="cm-12.1" />
   <project path="device/samsung/n7000" name="Oi-Android/cm-android_device_samsung_n7000" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Settings" name="Oi-Android/android_packages_apps_Settings_Oi" remote="github" revision="cm-12.1" />
+  
+   <!-- AuzOne -->
+  <project path="packages/apps/Browser" name="AuzOne/android_packages_apps_Browser" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/viper4android" name="AuzOne/android_packages_apps_Viper4Android" remote="github" revision="5.1" />
+  <project path="packages/apps/Eleven" name="AuzOne/android_packages_apps_Eleven" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Gallery2" name="AuzOne/android_packages_apps_Gallery2" remote="github" revision="cm-12.1" />
+  <project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4210" remote="github" revision="cm-12.1-r3p2" />
+  
+  <!-- more -->
+   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
+  <project path="vendor/samsung" remote="github" name="TheMuppets/proprietary_vendor_samsung" revision="cm-12.1" />
   <project path="device/samsung/galaxys2-common" name="bauner/cm-android_device_samsung_galaxys2-common" remote="github" revision="cm-12.1" />
   <project path="hardware/samsung" name="bauner/cm-android_hardware_samsung" remote="github" revision="cm-12.1" />
 </manifest>
