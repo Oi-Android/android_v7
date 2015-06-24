@@ -25,6 +25,10 @@
   <remote  name="CMRemix"
            fetch="https://bitbucket.org/CMRemix/" />
   <!-- Generic CMRemix GitLab remote -->
+  
+   <remote  name="Team-Validus"
+           fetch="https://github.com/Team-Validus/" />
+           
   <remote  name="gl"
            fetch="https://gitlab.com/CMRemix" />
   <!-- Omni Rom Github remote -->
@@ -94,19 +98,28 @@
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.1" />
 
   <!-- SABER MOD GCC -->
-  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="gl" revision="master" />-->
-  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="CMRemix/arm-linux-androideabi-4.9" remote="gl" revision="master" />-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="CMRemix" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="CMRemix/arm-linux-androideabi-4.8" remote="CMRemix" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="CMRemix/arm-linux-androideabi-4.9" remote="CMRemix" revision="master" />
+  <!-- SABERMOD ROM TOOLCHAINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="Team-Validus/arm-linux-androideabi-4.8" revision="lp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="Team-Validus/arm-linux-androideabi-4.9" revision="lp" /> 
+  <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.0-sm" name="readone_astn/sabermod-arm-linux-androideabi-5.0" remote="bitbucket" revision="master" /-->
+   
+  
+   <!-- SAMBERMOD KERNEL TOOLCAHINS -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="Team-Validus/arm-eabi-4.7" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="Team-Validus/arm-eabi-4.8" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="Team-Validus/arm-eabi-4.9" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="AuzOne/Sabermod" revision="arm-eabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" revision="master" />
 
   <!-- Clang Qcom Dependencies -->
   <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android_3.5/" remote="cmR" revision="clang_qcom_3.5" />
   <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" name="llvm-Snapdragon_LLVM_for_Android_3.6/" remote="cmR" revision="clang_qcom_3.6" />
   <project path="vendor/clanglibs" name="clanglibs" remote="cmR" revision="clang_qcom_3.6" />
+  <!--project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" /-->
   <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
   <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
+  <!--project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" /-->
+  <!--project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" /-->
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
 
   <!-- Vendor CMRemix & SaberMod -->
