@@ -38,10 +38,10 @@
            sync-j="8" />
 
   <!-- CMRemix Platform Manifest -->
-  <project path="CMRemix" name="AuzOne/CMRemix" remote="github" revision="cm-12.1" />
+  <project path="CMRemix" name="Oi-Android/CMRemix" remote="github" revision="lp5.1.1" />
 
   <!-- CMRemix Start -->
-  <project path="build" name="android_build" remote="cmR" revision="cm-12.1" >
+  <project path="build" name="Oi-Android/android_build" remote="github" revision="lp5.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
