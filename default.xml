@@ -468,7 +468,6 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
@@ -483,7 +482,6 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
@@ -592,6 +590,7 @@
   
    <!-- Oi-Android -->
   <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Mms" name="Oi-Android/android_packages_apps_Mms-caf" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
   <project path="frameworks/base" name="Oi-Android/android_frameworks_base-Oi" remote="github" revision="cm-12.1" />
   <project path="device/samsung/n7000" name="Oi-Android/cm-android_device_samsung_n7000" remote="github" revision="cm-12.1" />
@@ -599,6 +598,7 @@
   
    <!-- AuzOne -->
   <project path="packages/apps/Browser" name="AuzOne/android_packages_apps_Browser" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Trebuchet" name="AuzOne/android_packages_apps_Trebuchet" remote="github" revision="cm-12.1" />
   <project path="packages/apps/viper4android" name="AuzOne/android_packages_apps_Viper4Android" remote="github" revision="5.1" />
   <project path="packages/apps/Eleven" name="AuzOne/android_packages_apps_Eleven" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Gallery2" name="AuzOne/android_packages_apps_Gallery2" remote="github" revision="cm-12.1" />
