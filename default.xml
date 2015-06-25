@@ -98,15 +98,15 @@
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.1" />
 
   <!-- SABERMOD ROM TOOLCHAINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-sm" name="Team-Validus/arm-linux-androideabi-4.8" revision="lp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" name="Team-Validus/arm-linux-androideabi-4.9" revision="lp" /> 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="Team-Validus/arm-linux-androideabi-4.8" revision="lp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Team-Validus/arm-linux-androideabi-4.9" revision="lp" /> 
   <!--project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.0-sm" name="readone_astn/sabermod-arm-linux-androideabi-5.0" remote="bitbucket" revision="master" /-->
    
   
    <!-- SAMBERMOD KERNEL TOOLCAHINS -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-sm" name="Team-Validus/arm-eabi-4.7" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8-sm" name="Team-Validus/arm-eabi-4.8" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-sm" name="Team-Validus/arm-eabi-4.9" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="Team-Validus/arm-eabi-4.7" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="Team-Validus/arm-eabi-4.8" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="Team-Validus/arm-eabi-4.9" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-saber" name="AuzOne/Sabermod" revision="arm-eabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" revision="master" />
 
