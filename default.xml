@@ -669,4 +669,9 @@
   <!--project path="external/slimlp_gapps" name="Oi-Android/slimlp_gapps" remote="github" revision="lp5.1-viper" /-->
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="lp5.1" />
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
+  <project path="device/samsung/n7000" name="Oi-Android/cm-android_device_samsung_n7000" remote="github" revision="cm-12.1" />
+  <project path="vendor/samsung" remote="github" name="TheMuppets/proprietary_vendor_samsung" revision="cm-12.1" />
+  <project path="device/samsung/galaxys2-common" name="CyanogenMod/android_device_samsung_galaxys2-common" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
+  <project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4210" remote="github" revision="cm-12.1-r3p2" />
  </manifest>
