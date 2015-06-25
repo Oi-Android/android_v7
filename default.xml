@@ -19,6 +19,15 @@
   <remote  name="cmR"
            fetch="https://github.com/CMRemix/" />
   <!-- Generic CMRemix ssh Bitbucket remote -->
+   <remote  name="CyanogenMod"
+           fetch="https://github.com/CyanogenMod/" />
+   <remote  name="Oi-Android"
+           fetch="https://github.com/Oi-Android/" />
+   <remote  name="AuzOne"
+           fetch="https://github.com/AuzOne/" />
+   <remote  name="TheMuppets"
+           fetch="https://github.com/TheMuppets/" />
+           
   <remote  name="private-bb"
            fetch="ssh://git@bitbucket.org/CMRemix" />
   <!-- Generic CMRemix Github remote -->
