@@ -185,7 +185,6 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bson" name="CyanogenMod/android_external_bson" />
@@ -669,9 +668,5 @@
   <!--project path="external/slimlp_gapps" name="Oi-Android/slimlp_gapps" remote="github" revision="lp5.1-viper" /-->
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="lp5.1" />
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
-  <!--project path="device/samsung/n7000" name="Oi-Android/cm-android_device_samsung_n7000" remote="github" revision="cm-12.1" /-->
-  <!--project path="vendor/samsung" remote="github" name="TheMuppets/proprietary_vendor_samsung" revision="cm-12.1" /-->
-  <!--project path="device/samsung/galaxys2-common" name="CyanogenMod/android_device_samsung_galaxys2-common" /-->
-  <!--project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" /-->
-  <!--project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4210" remote="github" revision="cm-12.1-r3p2" /-->
+  <project path="external/bluetooth/bluedroid" name="Oi-Android/android_external_bluetooth_bluedroid" groups="pdk" revision="cm-12.1" />
  </manifest>
