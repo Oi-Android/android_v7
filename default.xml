@@ -667,7 +667,7 @@
   <!--project path="vendor/gapps" name="Oi-Android/vendor_gapps" remote="github" revision="wip" /-->
   <!--project path="external/slimlp_gapps" name="Oi-Android/slimlp_gapps" remote="github" revision="lp5.1-viper" /-->
   <project path="frameworks/base" name="AuzOne/android_frameworks_base-1" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/FloatingActionButton" name="RazerRom/packages_apps_FloatingActionButton" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/FloatingActionButton" name="RazerRom/packages_apps_FloatingActionButton" remote="github" revision="lp5.1" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" remote="github" revision="lp5.1" />
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
   <project path="external/bluetooth/bluedroid" name="Oi-Android/android_external_bluetooth_bluedroid" groups="pdk" revision="cm-12.1" />
