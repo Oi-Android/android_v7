@@ -69,7 +69,7 @@
 
   <!-- Package Apps -->
   <project path="packages/apps/CMRemixOTA" name="android_packages_apps_CMRemixOTA" remote="cmR" revision="cm-12.1" />
-  <!--<project path="packages/apps/CMRemixUpdater" name="android_packages_apps_CMRemixUpdater" remote="cmR" revision="cm-12.1" />-->
+  <project path="packages/apps/CMRemixUpdater" name="android_packages_apps_CMRemixUpdater" remote="cmR" revision="cm-12.1" />
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="lp5.1" />
   <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="cm-12.1" />
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.1" />
