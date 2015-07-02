@@ -601,7 +601,9 @@
   <project path="packages/apps/viper4android" name="AuzOne/android_packages_apps_Viper4Android" remote="github" revision="5.1" />
   <project path="packages/apps/Eleven" name="AuzOne/android_packages_apps_Eleven" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Gallery2" name="AuzOne/android_packages_apps_Gallery2" remote="github" revision="cm-12.1" />
-  <project path="kernel/samsung/smdk4412" name="AuzOne/android_kernel_samsung_smdk4210" remote="github" revision="cm-12.1-r3p2" />
+  
+  !-- bbl -->
+  <project path="kernel/samsung/smdk4412" name="belalang-tempur/android_kernel_samsung_smdk4210" remote="github" revision="cm-12.1-r3p2" />
   
   <!-- more -->
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
