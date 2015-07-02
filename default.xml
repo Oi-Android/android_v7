@@ -588,7 +588,7 @@
   </project>
   <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
-  <project path="external/jpeg" name="TeamBliss-LP/android_external_jpeg" groups="pdk" remote="github" revision="cm-12.1" />
+  <project path="external/jpeg" name="Oi-Android//android_external_jpeg" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="frameworks/base" name="Oi-Android/android_frameworks_base" remote="github" revision="cm-12.1" />
   <project path="frameworks/native" name="Oi-Android/android_frameworks_native" remote="github" revision="cm-12.1" groups="pdk" />
   <project path="packages/apps/Mms" name="Oi-Android/android_packages_apps_Mms-caf" remote="github" revision="cm-12.1" />
