@@ -22,10 +22,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -589,6 +585,9 @@
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
   
    <!-- Oi-Android -->
+  <project path="build" name="Oi-Android/android_build" remote="github" revision="cm-12.1" groups="pdk,tradefed" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Mms" name="Oi-Android/android_packages_apps_Mms-caf" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
