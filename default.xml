@@ -589,11 +589,12 @@
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Mms" name="Oi-Android/android_packages_apps_Mms-caf" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
   <project path="frameworks/base" name="Oi-Android/android_frameworks_base" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Mms" name="Oi-Android/android_packages_apps_Mms-caf" remote="github" revision="cm-12.1" />
   <project path="device/samsung/n7000" name="Oi-Android/cm-android_device_samsung_n7000" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Settings" name="Oi-Android/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/galaxys2-common" name="Oi-Android/android_device_samsung_galaxys2-common" remote="github" revision="cm-12.1" />
   
    <!-- AuzOne -->
   <project path="packages/apps/Browser" name="AuzOne/android_packages_apps_Browser" remote="github" revision="cm-12.1" />
@@ -609,7 +610,5 @@
   <!--project path="vendor/gapps" name="Oi-Android/vendor_gapps" remote="github" revision="wip" /-->
   <!--project path="device/samsung/galaxys2-common" name="bauner/cm-android_device_samsung_galaxys2-common" remote="github" revision="cm-12.1" /-->
   <!--project path="hardware/samsung" name="bauner/cm-android_hardware_samsung" remote="github" revision="cm-12.1" /-->
-  <!-- more -->
-  <project path="device/samsung/galaxys2-common" name="CyanogenMod/android_device_samsung_galaxys2-common" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
 </manifest>
