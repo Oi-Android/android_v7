@@ -607,6 +607,12 @@
   <project path="kernel/samsung/smdk4412" name="belalang-tempur/android_kernel_samsung_tw_n7000" remote="github" revision="experimental" />
   
   <!-- more -->
+  <project path="packages/apps/KernelAdiutor" name="SlimSaber/KernelAdiutor" remote="github" revision="master" />
+  <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" remote="github" revision="lp5.1" /> 
+  <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" remote="github" revision="android-5.0" />
+  <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" remote="github" revision="n-2.0" />
+  <project path="packages/apps/FloatingActionButton" name="TeamBliss-LP/android-floating-action-button" remote="github" revision="lp5.1" />
+  <project path="external/AndroidSwipeLayout" name="NamelessRom/android_external_AndroidSwipeLayout" remote="github" revision="n-2.0" />
   <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
   <project path="vendor/samsung" remote="github" name="TheMuppets/proprietary_vendor_samsung" revision="cm-12.1" />
   <!--project path="vendor/gapps" name="Oi-Android/vendor_gapps" remote="github" revision="wip" /-->
