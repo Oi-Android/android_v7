@@ -28,46 +28,52 @@ https://gitlab.com/SaberMod/sabermod-manifest/blob/master/README.md
 CMRemix Build Script
 ====================
 
-    Usage:
-        build-cmremix.sh [options] device
+Usage:
+  build-cmremix.sh [options] device
 
-    Options:
-        -a  Disable ADB authentication and set root access to Apps and ADB
-        -b# Prebuilt Chromium options:
-                1 - Remove
-                2 - No Prebuilt Chromium
-        -c# Cleaning options before build:
-                1 - Run make clean
-                2 - Run make installclean
-        -e# Extra build output options:
-                1 - Verbose build output
-                2 - Quiet build output
-        -f  Fetch cherry-picks
-        -j# Set number of jobs
-        -k  Rewrite roomservice after dependencies update
-        -r  Reset source tree before build
-        -s# Sync options before build:
-                1 - Normal sync
-                2 - Make snapshot
-                3 - Restore previous snapshot, then snapshot sync
-        -o# Only build:
-                1 - Boot Image
-                2 - Recovery Image
-        -p  Build using pipe
-        -t  Build ROM with TWRP Recovery (Extreme caution, ONLY for developers)
-                (This may produce an invalid recovery. Use only if you have the correct settings for these)
+  Options:
+    -a  Disable ADB authentication and set root access to Apps and ADB
+    -b# Prebuilt Chromium options:
+        1 - Remove
+        2 - No Prebuilt Chromium
+    -c# Cleaning options before build:
+        1 - Run make clean
+        2 - Run make installclean
+    -d  Build rom without ccache
+    -e# Extra build output options:
+        1 - Verbose build output
+        2 - Quiet build output
+    -f  Fetch extras
+    -j# Set number of jobs
+    -l  Optimizations for devices with low-RAM
+    -k  Rewrite roomservice after dependencies update
+    -i  Ignore minor errors during build
+    -r  Reset source tree before build
+    -s# Sync options before build:
+        1 - Normal sync
+        2 - Make snapshot
+        3 - Restore previous snapshot, then snapshot sync
+    -o# Only build:
+        1 - Boot Image
+        1 - Boot Zip
+        3 - Recovery Image 
+    -p  Build using pipe
+    -w  Log file options:
+        1 - Send warnings and errors to a log file
+        2 - Send all output to a log file
 
-    Example:
-        ./build-cmremix.sh -c1 trlte
+  Example:
+    ./build-cmremix.sh -c1 trltetmo
 
+Credits List
+============
 
-Credits 
-========
+*** CyanogenMod, PAC-man, AOKP, crDroid Android, AOSPA, CyanogenMod, OmniROM, SlimROM, LiquidSmooth, SpasilliumNexus, DirtyUnicorns, NamelessROM, AICP, Euphoria-OS. Team Bliss, Dirty Unicon
 
-CyanogenMod, PAC-man, AOKP, crDroid Android, AOSPA, CyanogenMod, OmniROM, SlimROM, LiquidSmooth, SpasilliumNexus, DirtyUnicorns, NamelessROM, AICP, Euphoria-OS.
+*** Temasek, Cristiano Matos, David Viteri, Slayher, Fattire, gekkehenkie11, XXMrHyde, tobitege, pimpmaneaton, rogersb11, NL-BlackDragon, Paul Beeler, Lokesh Chaman, LorDClockaN, Altaf-Mahdi, kufikugel, dankoman30, FusionJack, Chet Kener, mustermaxmueller....
 
-All Kernel Developers: faux123, Ktoonsez,friedrich420, Pafcholini, Imoseyon, Yank555, Flar2
+All Kernel Developers: faux123, Ktoonsez,friedrich420, Pafcholini, Imoseyon, Yank555, Flar2, LorDClockaN 
 
 Special Thanks To: Temasek, Cristiano Matos, David Viteri, Slayher,Fattire And Many Thanks to PAC Team For The Bad Ass build Scripts & Tools To Build CMRemix-Rom.
 
-And All The Developers That I Forget. Thank You All.
+Credit to All The Developers That I Forget and Please Let me know if you need me to put your name on the Credit List Thank You All.
