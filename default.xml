@@ -334,7 +334,6 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -590,6 +589,7 @@
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
   <project path="external/jpeg" name="Oi-Android//android_external_jpeg" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/cards" name="Oi-Android/frameworks_opt_cards" remote="github" revision="lp5.1" />
+  <project path="frameworks/av" name="Oi-Android//android_frameworks_av" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="frameworks/base" name="Oi-Android/android_frameworks_base" remote="github" revision="cm-12.1" />
   <project path="frameworks/native" name="Oi-Android/android_frameworks_native" remote="github" revision="cm-12.1" groups="pdk" />
   <project path="packages/apps/Mms" name="Oi-Android/android_packages_apps_Mms-caf" remote="github" revision="cm-12.1" />
