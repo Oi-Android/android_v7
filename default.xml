@@ -23,6 +23,8 @@
            fetch="https://github.com/CyanogenMod/" />
    <remote  name="Oi-Android"
            fetch="https://github.com/Oi-Android/" />
+   <remote  name="belalang-tempur"
+           fetch="https://github.com/belalang-tempur/" />
    <remote  name="AuzOne"
            fetch="https://github.com/AuzOne/" />
    <remote  name="TheMuppets"
