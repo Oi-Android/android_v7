@@ -590,7 +590,7 @@
   <project path="frameworks/base" name="CMRemix/android_frameworks_base" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Exchange" name="CMRemix/android_packages_apps_Exchange" remote="github" revision="cm-12.1" />
   <project path="packages/apps/UnifiedEmail" name="CMRemix/android_packages_apps_UnifiedEmail" remote="github" revision="cm-12.1" />
-  <project path="packages/providers/MediaProvider" name="CMRemix/android_packages_providers_MediaProvider" /remote="github" revision="cm-12.1" >
+  <project path="packages/providers/MediaProvider" name="CMRemix/android_packages_providers_MediaProvider" remote="github" revision="cm-12.1" />
   <project path="packages/apps/InCallUI" name="CMRemix/android_packages_apps_InCallUI" remote="github" revision="cm-12.1" />
   <project path="packages/services/Telecomm" name="CMRemix/android_packages_services_Telecomm" remote="github" revision="cm-12.1" />
   <project path="packages/inputmethods/LatinIME" name="CMRemix/android_packages_inputmethods_LatinIME" remote="github" revision="cm-12.1" />
