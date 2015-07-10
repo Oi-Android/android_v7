@@ -453,7 +453,6 @@
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
@@ -585,6 +584,7 @@
   <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
   <project path="system/core" name="Oi-Android/android_system_core" remote="github" revision="cm-12.1" groups="pdk" />
+  <project path="packages/apps/Dialer" name="CMRemix/android_packages_apps_Dialer" remote="github" revision="cm-12.1" />
   <project path="packages/services/Telephony" name="Oi-Android/android_packages_services_Telephony" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Email" name="Oi-Android/android_packages_apps_Email" remote="github" revision="cm-12.1" />
   <project path="external/jpeg" name="Oi-Android/android_external_jpeg" groups="pdk" remote="github" revision="cm-12.1" />
