@@ -555,7 +555,6 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
-  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
@@ -585,16 +584,17 @@
   </project>
   <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
+  <project path="system/core" name="Oi-Android/android_system_core" remote="github" revision="cm-12.1" groups="pdk" />
   <project path="packages/services/Telephony" name="Oi-Android/android_packages_services_Telephony" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Email" name="Oi-Android/android_packages_apps_Email" remote="github" revision="cm-12.1" />
   <project path="external/jpeg" name="Oi-Android/android_external_jpeg" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/cards" name="Oi-Android/frameworks_opt_cards" remote="github" revision="lp5.1" />
   <project path="frameworks/av" name="Oi-Android/android_frameworks_av" groups="pdk" remote="github" revision="cm-12.1" />
-  <project path="frameworks/base" name="Oi-Android/android_frameworks_base" remote="github" revision="cm-12.1" />
+  <project path="frameworks/base" name="CMRemix/android_frameworks_base" remote="github" revision="cm-12.1" />
   <project path="frameworks/native" name="Oi-Android/android_frameworks_native" remote="github" revision="cm-12.1" groups="pdk" />
   <project path="packages/apps/Mms" name="Oi-Android/android_packages_apps_Mms-caf" remote="github" revision="cm-12.1" />
   <project path="device/samsung/n7000" name="Oi-Android/cm-android_device_samsung_n7000" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Settings" name="Oi-Android/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/Settings" name="CMRemix/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
   <project path="device/samsung/galaxys2-common" name="Oi-Android/android_device_samsung_galaxys2-common" remote="github" revision="cm-12.1" />
   
    <!-- AuzOne -->
