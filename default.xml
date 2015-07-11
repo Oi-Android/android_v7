@@ -587,7 +587,7 @@
   <project path="device/samsung/n7000" name="Oi-Android/cm-android_device_samsung_n7000" remote="github" revision="cm-12.1" />
   <project path="device/samsung/galaxys2-common" name="Oi-Android/android_device_samsung_galaxys2-common" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Dialer" name="CMRemix/android_packages_apps_Dialer" remote="github" revision="cm-12.1" />
-  <project path="frameworks/base" name="CMRemix/android_frameworks_base" remote="github" revision="cm-12.1" />
+  <project path="frameworks/base" name="Oi-Android/android_frameworks_base" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Exchange" name="CMRemix/android_packages_apps_Exchange" remote="github" revision="cm-12.1" />
   <project path="packages/apps/UnifiedEmail" name="CMRemix/android_packages_apps_UnifiedEmail" remote="github" revision="cm-12.1" />
   <project path="packages/providers/MediaProvider" name="CMRemix/android_packages_providers_MediaProvider" remote="github" revision="cm-12.1" />
