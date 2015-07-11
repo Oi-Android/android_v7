@@ -566,7 +566,6 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
   
    <!-- Oi-Android -->
@@ -575,6 +574,7 @@
   </project>
   <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
+  <project path="vendor/cmsdk" name="Oi-Android/cm_platform_sdk" remote="github" revision="cm-12.1" />
   <project path="hardware/libhardware" name="Oi-Android/android_hardware_libhardware" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="system/core" name="Oi-Android/android_system_core" remote="github" revision="cm-12.1" groups="pdk" />
   <project path="packages/services/Telephony" name="Oi-Android/android_packages_services_Telephony" remote="github" revision="cm-12.1" />
