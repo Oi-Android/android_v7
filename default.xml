@@ -596,6 +596,7 @@
   <project path="packages/inputmethods/LatinIME" name="CMRemix/android_packages_inputmethods_LatinIME" remote="github" revision="cm-12.1" />
   <project path="packages/providers/ContactsProvider" name="CMRemix/android_packages_providers_ContactsProvider" remote="github" revision="cm-12.1" />
   <project path="packages/apps/FloatingActionButton" name="CMRemix/android-floating-action-button" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/KernelAdiutor" name="CMRemix/android_packages_apps_KernelAdiutor" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Settings" name="CMRemix/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
   
    <!-- AuzOne -->
@@ -609,7 +610,6 @@
   <project path="kernel/samsung/smdk4412" name="belalang-tempur/android_kernel_samsung_tw_n7000" remote="github" revision="experimental" />
   
   <!-- more -->
-  <project path="packages/apps/KernelAdiutor" name="SlimSaber/KernelAdiutor" remote="github" revision="master" />
   <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" remote="github" revision="lp5.1" /> 
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" remote="github" revision="android-5.0" />
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" remote="github" revision="n-2.0" />
