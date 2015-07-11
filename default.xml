@@ -387,7 +387,6 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" />
@@ -576,6 +575,7 @@
   </project>
   <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
+  <project path="hardware/libhardware" name="Oi-Android/android_hardware_libhardware" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="system/core" name="Oi-Android/android_system_core" remote="github" revision="cm-12.1" groups="pdk" />
   <project path="packages/services/Telephony" name="Oi-Android/android_packages_services_Telephony" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Email" name="Oi-Android/android_packages_apps_Email" remote="github" revision="cm-12.1" />
