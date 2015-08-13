@@ -13,14 +13,19 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
            
-  
-  <remote name="Oi-Android"
+   <remote name="Oi-Android"
           fetch="https://github.com/Oi-Android/" />
 
   <default revision="refs/heads/cm-12.1"
            remote="github"
            sync-c="true"
            sync-j="4" />
+
+  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="android" name="Oi-Android/android_v7" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -182,6 +187,7 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" remote="aosp" />
+  <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" remote="aosp" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" remote="aosp" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" />
@@ -334,6 +340,8 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -342,6 +350,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
@@ -387,6 +396,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" />
@@ -434,10 +444,11 @@
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
-  <!--project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" /-->
+  <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
@@ -452,16 +463,24 @@
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
+  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
+  <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
+  <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
+  <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" />
+  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
@@ -470,11 +489,16 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
+  <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
+  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
+  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
@@ -484,6 +508,8 @@
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" />
+  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
+  <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
@@ -546,6 +572,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" remote="aosp" />
+  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
@@ -566,58 +593,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-  
-   <!-- Oi-Android -->
-  <project path="build" name="Oi-Android/android_build" remote="github" revision="cm-12.1" groups="pdk,tradefed" >
-  <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="android" name="Oi-Android/android_v7" remote="github" revision="cm-12.1" />
-  <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
-  <project path="vendor/cmsdk" name="Oi-Android/cm_platform_sdk" remote="github" revision="cm-12.1" />
-  <project path="hardware/libhardware" name="Oi-Android/android_hardware_libhardware" groups="pdk" remote="github" revision="cm-12.1" />
-  <project path="system/core" name="Oi-Android/android_system_core" remote="github" revision="cm-12.1" groups="pdk" />
-  <project path="packages/services/Telephony" name="Oi-Android/android_packages_services_Telephony" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Email" name="Oi-Android/android_packages_apps_Email" remote="github" revision="cm-12.1" />
-  <project path="external/jpeg" name="Oi-Android/android_external_jpeg" groups="pdk" remote="github" revision="cm-12.1" />
-  <project path="frameworks/opt/cards" name="Oi-Android/frameworks_opt_cards" remote="github" revision="lp5.1" />
-  <project path="frameworks/av" name="Oi-Android/android_frameworks_av" groups="pdk" remote="github" revision="cm-12.1" />
-  <project path="frameworks/native" name="Oi-Android/android_frameworks_native" remote="github" revision="cm-12.1" groups="pdk" />
-  <project path="packages/apps/Mms" name="Oi-Android/android_packages_apps_Mms-caf" remote="github" revision="cm-12.1" />
-  <project path="device/samsung/n7000" name="Oi-Android/cm-android_device_samsung_n7000" remote="github" revision="cm-12.1" />
-  <project path="device/samsung/galaxys2-common" name="Oi-Android/android_device_samsung_galaxys2-common" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Dialer" name="CMRemix/android_packages_apps_Dialer" remote="github" revision="cm-12.1" />
-  <project path="frameworks/base" name="CMRemix/android_frameworks_base" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Exchange" name="CMRemix/android_packages_apps_Exchange" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/UnifiedEmail" name="CMRemix/android_packages_apps_UnifiedEmail" remote="github" revision="cm-12.1" />
-  <project path="packages/providers/MediaProvider" name="CMRemix/android_packages_providers_MediaProvider" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/InCallUI" name="CMRemix/android_packages_apps_InCallUI" remote="github" revision="cm-12.1" />
-  <project path="packages/services/Telecomm" name="CMRemix/android_packages_services_Telecomm" remote="github" revision="cm-12.1" />
-  <project path="packages/inputmethods/LatinIME" name="CMRemix/android_packages_inputmethods_LatinIME" remote="github" revision="cm-12.1" />
-  <project path="packages/providers/ContactsProvider" name="CMRemix/android_packages_providers_ContactsProvider" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/FloatingActionButton" name="CMRemix/android-floating-action-button" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/KernelAdiutor" name="CMRemix/android_packages_apps_KernelAdiutor" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Settings" name="CMRemix/android_packages_apps_Settings" remote="github" revision="cm-12.1" />
-  
-   <!-- AuzOne -->
-  <project path="packages/apps/Browser" name="AuzOne/android_packages_apps_Browser" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Trebuchet" name="AuzOne/android_packages_apps_Trebuchet" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/viper4android" name="AuzOne/android_packages_apps_Viper4Android" remote="github" revision="5.1" />
-  <project path="packages/apps/Eleven" name="AuzOne/android_packages_apps_Eleven" remote="github" revision="cm-12.1" />
-  <project path="packages/apps/Gallery2" name="AuzOne/android_packages_apps_Gallery2" remote="github" revision="cm-12.1" />
-  
-  !-- bbl -->
-  <project path="kernel/samsung/smdk4412" name="belalang-tempur/android_kernel_samsung_tw_n7000" remote="github" revision="experimental" />
-  
-  <!-- more -->
-  <project path="packages/apps/OmniSwitch" name="TeamBliss-LP/android_packages_apps_OmniSwitch" remote="github" revision="lp5.1" /> 
-  <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" remote="github" revision="android-5.0" />
-  <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" remote="github" revision="n-2.0" />
-  <project path="external/AndroidSwipeLayout" name="NamelessRom/android_external_AndroidSwipeLayout" remote="github" revision="n-2.0" />
-  <project path="external/google/google_play_services" name="SlimRoms/android_external_google_google_play_services" remote="github" revision="lp5.1" />
-  <project path="vendor/samsung" remote="github" name="TheMuppets/proprietary_vendor_samsung" revision="cm-12.1" />
-  <!--project path="vendor/gapps" name="Oi-Android/vendor_gapps" remote="github" revision="wip" /-->
-  <!--project path="device/samsung/galaxys2-common" name="bauner/cm-android_device_samsung_galaxys2-common" remote="github" revision="cm-12.1" /-->
-  <!--project path="hardware/samsung" name="bauner/cm-android_hardware_samsung" remote="github" revision="cm-12.1" /-->
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
+  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <project path="device/xiaomi/ferrari" name="Oi-Android/android_device_xiaomi_ferrari" remote="github" revision="cm-12.1" />
 </manifest>
