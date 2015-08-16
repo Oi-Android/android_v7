@@ -90,6 +90,7 @@
   <project path="packages/apps/WallpaperPicker" name="SlimSaber/packages_apps_WallpaperPicker"  remote="github" revision="lp5.1" />
 
   <!-- Misc -->
+  <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-12.1" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-12.1" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-12.1" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="cmR" revision="cm-12.1" />
@@ -98,14 +99,15 @@
   <project path="development" name="android_development" groups="pdk-cw-fs" remote="cmR" revision="cm-12.1" />
   <project path="libcore" name="android_libcore" remote="cmR" revision="cm-12.1" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="cmR" revision="cm-12.1" />
 
   <!-- SABER MOD GCC -->
   <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="gl" revision="master" />-->
-  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="CMRemix/arm-linux-androideabi-4.9" remote="gl" revision="master" />-->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="arm-eabi-5.2" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="arm-linux-androideabi-5.1" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" revision="master" />
 
   <!-- Clang Qcom Dependencies -->
@@ -127,7 +129,6 @@
   <!-- Cyanogenmod Start -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
@@ -296,7 +297,6 @@
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/ion" name="CyanogenMod/ion" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" remote="aosp" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libedit" name="platform/external/libedit" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" />
