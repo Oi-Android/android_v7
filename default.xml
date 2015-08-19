@@ -37,93 +37,6 @@
            sync-c="true"
            sync-j="8" />
 
-  <!-- CMRemix Platform Manifest -->
-  <project path="CMRemix" name="CMRemix" remote="cmR" revision="cm-12.1" />
-
-  <!-- CMRemix Start -->
-  <project path="build" name="android_build" remote="cmR" revision="cm-12.1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
-   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-12.1" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cm-12.1" />
-  <project path="frameworks/webview" name="android_frameworks_webview" remote="cmR" revision="cm-12.1" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-12.1" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cmR" revision="cm-12.1" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="cmR" revision="cm-12.1" />
-  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="cmR" revision="cm-12.1" />
-
-  <!-- Package Apps -->
-  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/CMRemixOTA" name="android_packages_apps_CMRemixOTA" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/CMRemixUpdater" name="android_packages_apps_CMRemixUpdater" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="lp5.1" />
-  <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.1" />
-  <project path="packages/apps/SlimLauncher" name="android_packages_apps_SlimLauncher" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cmR" revision="cm-12.1" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cmR" revision="cm-12.1" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cmR" revision="cm-12.1" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cmR" revision="cm-12.1" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/KernelAdiutor" name="android_packages_apps_KernelAdiutor" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/FloatingActionButton" name="android-floating-action-button" remote="cmR" revision="cm-12.1" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="cmR" revision="cm-12.1" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/Apollo" name="DirtyUnicorns/android_packages_apps_Apollo" remote="github" revision="lollipop-caf" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cmR" revision="cm-12.1" />
-  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cmR" revision="cm-12.1" />
-
-  <!-- Misc -->
-  <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-12.1" />
-  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-12.1" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-12.1" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="cmR" revision="cm-12.1" />
-  <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="cmR" revision="cm-12.1" />
-  <project path="external/chromium_org" name="android_external_chromium_org" remote="cmR" revision="cm-12.1" />
-  <project path="development" name="android_development" groups="pdk-cw-fs" remote="cmR" revision="cm-12.1" />
-  <project path="libcore" name="android_libcore" remote="cmR" revision="cm-12.1" />
-  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.1" />
-  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="cmR" revision="cm-12.1" />
-
-  <!-- SABER MOD GCC -->
-  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="gl" revision="master" />-->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="arm-eabi-5.2" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="arm-linux-androideabi-5.1" remote="bb" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" revision="master" />
-
-  <!-- Clang Qcom Dependencies -->
-  <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android_3.5/" remote="cmR" revision="clang_qcom_3.5" />
-  <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" name="llvm-Snapdragon_LLVM_for_Android_3.6/" remote="cmR" revision="clang_qcom_3.6" />
-  <project path="vendor/clanglibs" name="clanglibs" remote="cmR" revision="clang_qcom_3.6" />
-  <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
-  <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
-  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
-
-  <!-- Vendor CMRemix & SaberMod -->
-  <project path="vendor/sm" name="android_vendor_SaberMod" remote="cmR" revision="cm-12.1" />
-  <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-12.1" >
-    <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
-  </project>
-
-  <!-- CMRemix End -->
-  
   <!-- Cyanogenmod Start -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -646,4 +559,91 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  <!-- CM End -->
+
+  <!-- CMRemix Platform Manifest -->
+  <project path="CMRemix" name="CMRemix" remote="cmR" revision="cm-12.1" />
+
+  <!-- CMRemix Start -->
+  <project path="build" name="android_build" remote="cmR" revision="cm-12.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+   <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="cmR" revision="cm-12.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="cmR" revision="cm-12.1" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="cmR" revision="cm-12.1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="cmR" revision="cm-12.1" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cmR" revision="cm-12.1" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="cmR" revision="cm-12.1" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="cmR" revision="cm-12.1" />
+
+  <!-- Package Apps -->
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/CMRemixOTA" name="android_packages_apps_CMRemixOTA" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/CMRemixUpdater" name="android_packages_apps_CMRemixUpdater" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="lp5.1" />
+  <project name="android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="lp5.1" />
+  <project path="packages/apps/SlimLauncher" name="android_packages_apps_SlimLauncher" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="cmR" revision="cm-12.1" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cmR" revision="cm-12.1" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="cmR" revision="cm-12.1" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cmR" revision="cm-12.1" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/KernelAdiutor" name="android_packages_apps_KernelAdiutor" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/FloatingActionButton" name="android-floating-action-button" remote="cmR" revision="cm-12.1" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" remote="cmR" revision="cm-12.1" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/Apollo" name="DirtyUnicorns/android_packages_apps_Apollo" remote="github" revision="lollipop-caf" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cmR" revision="cm-12.1" />
+
+  <!-- Misc -->
+  <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="external/sqlite" name="android_external_sqlite" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="cmR" revision="cm-12.1" />
+  <project path="development" name="android_development" groups="pdk-cw-fs" remote="cmR" revision="cm-12.1" />
+  <project path="libcore" name="android_libcore" remote="cmR" revision="cm-12.1" />
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.1" />
+  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="cmR" revision="cm-12.1" />
+
+  <!-- SABER MOD GCC -->
+  <!--<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="CMRemix/arm-eabi-4.9" remote="gl" revision="master" />-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="arm-eabi-5.2" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="arm-linux-androideabi-4.8" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" name="arm-linux-androideabi-5.1" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" revision="master" />
+
+  <!-- Clang Qcom Dependencies -->
+  <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" name="llvm-Snapdragon_LLVM_for_Android_3.5/" remote="cmR" revision="clang_qcom_3.5" />
+  <project path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" name="llvm-Snapdragon_LLVM_for_Android_3.6/" remote="cmR" revision="clang_qcom_3.6" />
+  <project path="vendor/clanglibs" name="clanglibs" remote="cmR" revision="clang_qcom_3.6" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
+  <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
+  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
+
+  <!-- Vendor CMRemix & SaberMod -->
+  <project path="vendor/sm" name="android_vendor_SaberMod" remote="cmR" revision="cm-12.1" />
+  <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-12.1" >
+    <copyfile src="tools/build-cmremix.sh" dest="build-cmremix.sh" />
+  </project>
+  <!-- CMRemix End -->
 </manifest>
