@@ -641,6 +641,9 @@
   <project path="prebuilts/ndk" name="android_prebuilts_ndk" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cmR" revision="clang_qcom_3.6" />
 
+  <!-- OmniROM -->
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" groups="pdk" remote="omni" />
+
   <!-- Vendor CMRemix & SaberMod -->
   <project path="vendor/sm" name="android_vendor_SaberMod" remote="cmR" revision="cm-12.1" />
   <project path="vendor/cmremix" name="android_vendor_CMRemix" remote="cmR" revision="cm-12.1" >
