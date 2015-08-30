@@ -595,10 +595,11 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="Oi-Android/android_vendor_cm" remote="github" revision="cm-12.1" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
+  
+  <!-- tambahan -->
   <project path="device/xiaomi/ferrari" name="Oi-Android/android_device_xiaomi_ferrari" remote="github" revision="cm-12.1" />
-  <!-- project path="kernel/xiaomi/ferrari" name="Oi-Android/android_kernel_xiaomi_ferrari" remote="github" revision="cm-12.1" />
-  <project path="vendor/xiaomi/ferrari" name="Oi-Android/android_vendor_xiaomi_ferrari" remote="github" revision="cm-12.1" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
-  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" />
-  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" /> -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/sabermod-aarch64-linux-android-4.9" name="Oi-Android/android_prebuilts_gcc_linux-x86_aarch64_sabermod-aarch64-linux-android-4.9" remote="github" revision="mkl-mr1" />
+  <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-eabi-4.9" name="Oi-Android/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.9" remote="github" revision="mkl-mr1" />
+  <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-androideabi-4.8" name="Oi-Android/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" remote="github" revision="mkl-mr1" />
+  <project path="prebuilts/sabermod" name="Oi-Android/android_prebuilts_sabermod" remote="github" revision="mkl-mr1" />
 </manifest>
