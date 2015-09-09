@@ -606,6 +606,7 @@
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cmR" revision="cm-12.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="cmR" revision="cm-12.1" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" remote="cmR" revision="cm-12.1" />
+  <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="cmR" revision="cm-12.1" />
 
   <!-- Misc -->
   <project path="bionic" name="android_bionic" groups="pdk" remote="cmR" revision="cm-12.1" />
