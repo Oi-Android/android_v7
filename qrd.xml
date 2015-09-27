@@ -14,13 +14,13 @@
            sync-c="true"
            sync-j="4" />
 
-  <project groups="pdk" name="device/asus/deb" revision="0e32bac541b31816a435562284045268f0c31a19" upstream="LA.BR.1.2.3"/>
+  <!--<project groups="pdk" name="device/asus/deb" revision="0e32bac541b31816a435562284045268f0c31a19" upstream="LA.BR.1.2.3"/>
 
   <project groups="pdk" name="device/asus/flo-kernel" revision="b28e0d15496f02a017b2cfbd6ae19165332a4c39" upstream="LA.BR.1.2.3_1"/>
   <project groups="pdk" name="device/asus/fugu" revision="4e28d323b9581e3aafda00bc058751db260f2af1" upstream="LA.BR.1.2.3_1"/>
   <project groups="pdk" name="device/asus/fugu-kernel" revision="d7069f849a127161dc5f9e083d5be8356fe538d8" upstream="LA.BR.1.2.3_1"/>
   <project groups="pdk" name="device/asus/grouper" revision="72c2817317e491dfaf6c53ca17584bc56a7520f4" upstream="LA.BR.1.2.3_1"/>
-  <project groups="pdk" name="device/asus/tilapia" revision="9e7a8e2b2cb0ffe27dd493f4a14d83bfdb7ca962" upstream="LA.BR.1.2.3"/>
+  <project groups="pdk" name="device/asus/tilapia" revision="9e7a8e2b2cb0ffe27dd493f4a14d83bfdb7ca962" upstream="LA.BR.1.2.3"/> -->
   <project groups="pdk-cw-fs" name="device/common" revision="e8f88a901cc5b47a4b5b90c02075f601d69d161b" upstream="LA.BR.1.2.3"/>
   <project groups="pdk" name="device/generic/arm64" revision="39249053f37b7f9633eb406af3dbedfea7bf8b3e" upstream="LA.BR.1.2.3"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="2a96372d80c693fc28b29328b3e86b65cab9189b" upstream="LA.BR.1.2.3"/>
@@ -38,19 +38,19 @@
   <project groups="pdk" name="device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" upstream="LA.BR.1.2.3"/>
   <project groups="pdk" name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="LA.BR.1.2.3"/>
   <project groups="pdk" name="device/google/atv" revision="e7bba8b3dd9e729f16477591237ea9baa922cfdb" upstream="LA.BR.1.2.3"/>
-  <project groups="pdk" name="device/htc/flounder" revision="4cf16b18a233111d3a9f9585afb640c0125f1261" upstream="LA.BR.1.2.3"/>
+  <!--<project groups="pdk" name="device/htc/flounder" revision="4cf16b18a233111d3a9f9585afb640c0125f1261" upstream="LA.BR.1.2.3"/>
   <project groups="pdk" name="device/htc/flounder-kernel" revision="195e4cd94175666979fa6f5594522a1433dd5e94" upstream="LA.BR.1.2.3_1"/>
 
 
   <project groups="pdk" name="device/lge/mako" revision="fd2864cbc966d9c604a9a02cb8b2cb651bcbf046" upstream="LA.BR.1.2.3"/>
-  <project groups="pdk" name="device/lge/mako-kernel" revision="44d9cabbdcfe7cc4e3f7e2ac5631a5936587abb4" upstream="LA.BR.1.2.3_1"/>
+  <project groups="pdk" name="device/lge/mako-kernel" revision="44d9cabbdcfe7cc4e3f7e2ac5631a5936587abb4" upstream="LA.BR.1.2.3_1"/> -->
 
 
   <project name="device/qcom/sepolicy" revision="6a571ed77c10b74da8f09258139b169e2511e48c" upstream="LA.BR.1.2.3"/>
   <project groups="pdk" name="device/sample" revision="83118f3bb87497cf3291ce4e858d8038f9fe7cc3" upstream="LA.BR.1.2.3"/>
-  <project groups="pdk" name="device/samsung/manta" revision="d35b0e50add100cea04580b3b4c6cb418f041e96" upstream="LA.BR.1.2.3"/>
-  <project name="kernel/lk" path="bootable/bootloader/lk" revision="7d0efead43878315681351269d46bef7bdcf46e7" upstream="LA.BR.1.2.3"/>
-  <project name="kernel/msm-3.10" path="kernel" revision="e949182eeddc51d9a0ba639019476e01b1a08808" upstream="LA.BR.1.2.3"/>
+  <!-- <project groups="pdk" name="device/samsung/manta" revision="d35b0e50add100cea04580b3b4c6cb418f041e96" upstream="LA.BR.1.2.3"/> -->
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="7d0efead43878315681351269d46bef7bdcf46e7" upstream="LA.BR.1.2.3"/> 
+  <!-- <project name="kernel/msm-3.10" path="kernel" revision="e949182eeddc51d9a0ba639019476e01b1a08808" upstream="LA.BR.1.2.3"/> -->
   <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="a0f99286d0909f7a30b0bee742bec2a0b62c4dd0" upstream="LA.BR.1.2.3"/>
   <project groups="pdk" name="platform/art" path="art" revision="aef3538089b698ae0715463ef3719c9c9326718a" upstream="LA.BR.1.2.3"/>
   <project groups="pdk" name="platform/bionic" path="bionic" revision="349b61732ae96eb644f7629635b4cbfc71c4b9ba" upstream="LA.BR.1.2.3"/>
