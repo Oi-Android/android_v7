@@ -223,6 +223,7 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" remote="aosp" />
+  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/libphonenumbergoogle" name="CyanogenMod/android_external_libphonenumbergoogle" />
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" />
@@ -619,7 +620,6 @@
   <project path="development" name="android_development" groups="pdk-cw-fs" remote="cmR" revision="cm-12.1" />
   <project path="libcore" name="android_libcore" remote="cmR" revision="cm-12.1" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="cmR" revision="cm-12.1" />
-  <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="cmR" revision="cm-12.1" />
   <project path="CHANGELOGS" name="CHANGELOGS" remote="cmR" revision="cm-12.1" />
 
   <!-- SABER MOD GCC -->
